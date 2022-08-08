@@ -1,0 +1,16 @@
+{
+  "name": "technical-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "seed": "prisma generate && node prisma/seed.js",
+    "start": "node src/app.js",
+    "test": "node test/app_test.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.1.1",
+    "express": "^4.18.1",
+    "prisma": "^4.1.1"
+  }
+}
