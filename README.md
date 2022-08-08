@@ -20,7 +20,7 @@ In the client.... '''npm run test```
 
 ## Completion
 
-This application is meant to demonstrate baseline understanding of react and Node.js applications.
+This application is meant to demonstrate baseline understanding of React and Node.js applications.
 To complete the React portion, you must ensure that all the Jest tests in the React app resolve.
 To complete the express portion, you must ensure that all the promises in the Node tests have a status of "fulfilled".
 Do not change the tests.
