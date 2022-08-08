@@ -3,7 +3,7 @@ import App from './App';
 
 test('Renders a list of products', () => {
   render(<App />);
-  const listElement = screen.getByText('Available Products');
+  const listElement = screen.getByText('Brochure on Cooking');
   expect(listElement).toBeInTheDocument();
 });
 
