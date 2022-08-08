@@ -2,16 +2,9 @@
 
 ## Installing and Running
 
-You will need Node v14+ to run this application.
-Yarn is the preferred package manager.
+You will need Docker installed to run this application.
 
-In /server:
+To get started:
+```docker compose up```
 
-```
-/server
-
-yarn install
-yarn prisma generate
-yarn seed
-yarn start
-```
+If you have any issues, run ```docker compose down && docker compose up```
