@@ -2,13 +2,14 @@ const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient()
 
 async function main() {
-  const products = await prisma.product.createMany({
-    data: [
-      {"name":"Book on Ideas", "description":"A book with many ideas."},
-      {"name":"Brochure on Cooking", "description":"A borchure about cooking"},
-    ]
+  await prisma.product.create({
+    data: 
+      {name:"Book on Ideas", description:"A book with many ideas."} 
   })
-  return products
+  await prisma.product.create({
+    data: 
+    {"name":"Brochure on Cooking", "description":"A borchure about cooking"},
+  })
 }
 
 module.exports = main
