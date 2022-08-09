@@ -16,7 +16,7 @@ To start the frontend client in development mode...
 
 ## Running Tests
 In the server... ```npm run test```
-In the client.... '''npm run test```
+In the client.... ```npm run test```
 
 ## Completion
 
