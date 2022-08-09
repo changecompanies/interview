@@ -17,16 +17,6 @@ services:
       - ./mysql-data:/var/lib/mysql
     networks:
       - test-net
-  server:
-    build: ./server/
-    volumes:
-      - "./server:/var/www/server"
-    ports:
-      - "5221:5221"
-    networks:
-      - test-net
-    depends_on:
-      - mysql
 networks:
   test-net:
     driver: bridge
